@@ -1,0 +1,103 @@
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(240, 250, 240, 0.75);
+    background-blend-mode: screen;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(28, 121, 71, 0.2);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid #1C7947;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 32px;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #0e5230 0%, #1C7947 50%, #0e5230 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.title-text {
+    display: block;
+    font-size: 28px;
+}
+
+.title-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #1C7947;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(28, 121, 71, 0.2);
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#save-el {
+    font-weight: bold;
+    color: #1C7947;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+#trees-label {
+    color: #0e5230;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
