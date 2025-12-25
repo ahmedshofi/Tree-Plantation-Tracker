@@ -8,22 +8,22 @@ body {
     text-align: center;
     min-height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
-    background-image: url("bg.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgba(240, 250, 240, 0.75);
-    background-blend-mode: screen;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(28, 121, 71, 0.2);
-    max-width: 80%;
-    margin: auto;
-    border: 3px solid #1C7947;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+    width: 360px;
+    max-width: 92%;
+    padding: 28px 24px;
+    margin: 20px auto;
+    border: 2px solid rgba(28, 121, 71, 0.12);
+    border-radius: 16px;
 }
 
 h1 {
